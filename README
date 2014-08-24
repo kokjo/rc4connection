@@ -1,0 +1,12 @@
+RC4 Connections
+===============
+This is a very encryption scheme to obfucate traffic over a socket.
+
+How to use:
+===========
+Call enable_encryption(fd, key, key_len) to enable encryption of std-in/out/err
+the fd should be an socket but pty or file might work too.
+
+Example:
+========
+see test.c
